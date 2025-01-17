@@ -10,4 +10,7 @@ add_library(glad STATIC ${GLAD_SRC})
 target_include_directories(glad PUBLIC ${GLAD_INCLUDE})
 
 # Add GLFW
+set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "Disable GLFW example programs")
+set(GLFW_BUILD_DOCS OFF CACHE BOOL "Disable GLFW documentation")
+set(GLFW_BUILD_TESTS OFF CACHE BOOL "Disable GLFW test programs")
 add_subdirectory(glfw)
