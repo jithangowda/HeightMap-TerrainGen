@@ -27,4 +27,4 @@ add_executable(${PROJECT_NAME} ${SOURCES})
 
 # Link libraries
 find_package(OpenGL REQUIRED)
-target_link_libraries(${PROJECT_NAME} PRIVATE glad glfw OpenGL::GL)
+target_link_libraries(${PROJECT_NAME} PRIVATE glad glfw glm OpenGL::GL)

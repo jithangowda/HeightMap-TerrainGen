@@ -14,3 +14,9 @@ set(GLFW_BUILD_EXAMPLES OFF CACHE BOOL "Disable GLFW example programs")
 set(GLFW_BUILD_DOCS OFF CACHE BOOL "Disable GLFW documentation")
 set(GLFW_BUILD_TESTS OFF CACHE BOOL "Disable GLFW test programs")
 add_subdirectory(glfw)
+
+# Add GLM
+set(GLM_BUILD_EXAMPLES OFF CACHE BOOL "Disable GLM example programs")
+set(GLM_BUILD_DOCS OFF CACHE BOOL "Disable GLM documentation")
+set(GLM_BUILD_TESTS OFF CACHE BOOL "Disable GLM test programs")
+add_subdirectory(glm)
